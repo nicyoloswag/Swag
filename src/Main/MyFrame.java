@@ -49,7 +49,7 @@ public class MyFrame extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		lblAids = new JLabel("AIDS");
+		lblAids = new JLabel("Calculator");
 		lblAids.setBounds(22, 121, 332, 16);
 		contentPane.add(lblAids);
 
@@ -67,7 +67,7 @@ public class MyFrame extends JFrame {
 		comboBox.addItem("^");
 		contentPane.add(comboBox);
 
-		JButton btnYoloswag = new JButton("YOLOSWAG");
+		JButton btnYoloswag = new JButton("Calculate");
 		btnYoloswag.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
