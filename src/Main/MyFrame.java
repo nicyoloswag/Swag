@@ -49,7 +49,7 @@ public class MyFrame extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		lblAids = new JLabel("swerve");
+		lblAids = new JLabel("AIDS");
 		lblAids.setBounds(22, 121, 332, 16);
 		contentPane.add(lblAids);
 
